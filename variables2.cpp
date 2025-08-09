@@ -11,11 +11,12 @@ int main()
 	string message;
 	cout << "Введите слово:" << endl;
 	cin >> message;
-	cout << "Вы ввели:" << endl << message;
+	cout << "Вы ввели:" << endl << message << endl;
 
 	SetConsoleCP(866);
 	SetConsoleOutputCP(866);
 
 	return 0;
 }
+
 
